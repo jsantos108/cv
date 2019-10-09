@@ -1,0 +1,104 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.profile,
+.skill-row,
+.contact-me {
+  max-width: 800px;
+  margin: auto;
+}
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin-top: 70px;
+  padding: 5px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  color: white;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 50px;
+  font-family: "Parisienne", cursive;
+  font-size: 600%;
+}
+
+h2 {
+  font-size: 200%;
+  font-style: italic;
+  color: #0c387f;
+}
+
+.profile {
+  padding-bottom: 30px;
+}
+
+.profilePic {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.skills {
+  background-color: #ededed;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.thumbnailContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.thumbnailTile {
+  margin: 30px;
+}
+
+.thumbnailImage {
+  width: 150px;
+  height: 100px;
+}
+
+.top-container {
+  height: 600px;
+  background-image: url("https://i.imgur.com/kTImGHs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.middle-container {
+  margin: 50px auto;
+}
+
+.bottom-container {
+  background-color: #101d49;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.btn {
+  color: white;
+  border: solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
